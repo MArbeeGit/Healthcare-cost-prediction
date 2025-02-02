@@ -5,19 +5,17 @@ This project is a Streamlit application that predicts healthcare costs based on 
 ## Project Structure
 The project is organized into the following folders and files:
 
-healthcare-cost-prediction/
-├── data/ # Folder for raw and processed datasets
-│ └── insurance.csv # Raw dataset used for training the model
-├── notebooks/ # Jupyter notebooks for EDA and model training
-│ ├── eda.ipynb # Exploratory Data Analysis (EDA) notebook
-│ └── model_training.ipynb # Notebook for training the machine learning model
-├── src/ # Python scripts for preprocessing and model training
-│ └── model_training.py # Script to train and save the model
-├── app.py # Streamlit app script for making predictions
-├── model.pkl # Trained machine learning model
-├── feature_names.txt # Feature names used during model training
-├── requirements.txt # List of Python dependencies
-└── README.md # Project description and instructions
+healthcare-cost-prediction/                                                                                                                                                                                          
+├── data/  # Folder for raw and processed datasets                                                                                                                                                                   
+│ └── insurance.csv  # Raw dataset used for training the model                                                                                                                                                       
+├── notebooks/  # Jupyter notebooks for EDA and model training                                                                                                                                                       
+│ ├── eda.ipynb  # Exploratory Data Analysis (EDA) notebook                                                                                                                                                          
+│ └── model_training.ipynb  # Notebook for training the machine learning model                                                                                                                                       
+├── app.py  # Streamlit app script for making predictions                                                                                                                                                            
+├── model.pkl  # Trained machine learning model                                                                                                                                                                      
+├── feature_names.txt  # Feature names used during model training                                                                                                                                                    
+├── requirements.txt  # List of Python dependencies                                                                                                                                                                  
+└── README.md  # Project description and instructions                                                                                                                                                                
 
 
 ## Dataset
